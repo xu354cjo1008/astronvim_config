@@ -51,6 +51,7 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+      clangd,
     },
   },
 
@@ -64,6 +65,12 @@ return {
       },
     },
   },
+
+ -- telescope = {
+ --   defaults = {
+ --     file_ignore_patterns = {".git/", ".cache", "%.o", "%.a", "%.out"},
+ --   },
+ -- },
 
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
